@@ -3,6 +3,11 @@ public class Car {
     public static void main(String[] args) {
         System.out.println("Welcome!");
         Scanner input = new Scanner(System.in);
+        
+        System.out.println("How many cars would you like us to take a look at?");
+        int uQuan = input.nextInt();
+        
+        for(int i = 0;i<uQuan; i++){
 
         System.out.println("Please enter the make of your vehicle: ");
         String uMake = input.next();
@@ -38,6 +43,6 @@ public class Car {
             System.out.println(uInput.washCar());
         }
 
-        
+    }
     }
 }
