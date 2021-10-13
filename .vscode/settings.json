@@ -1,7 +1,10 @@
 {
     "java.project.sourcePaths": [
         "Workout",
+        "Restaurant",
+        "Count",
         "Car",
-        "BasicCalc"
+        "BasicCalc",
+        ""
     ]
 }
