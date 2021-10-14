@@ -17,13 +17,13 @@ class Teacher extends Faculty{
         if(qualification.equals("Doctoral")){
             return getBasicSalary()+20000.0;
         }
-        else if(qualification.equals("masters")){
+        else if(qualification.equals("Masters")){
             return getBasicSalary()+18000.0;
         }
-        else if(qualification.equals("bachelors")){
+        else if(qualification.equals("Bachelors")){
             return getBasicSalary()+15500.0;
         }
-        else if(qualification.equals("associate")){
+        else if(qualification.equals("Associate")){
             return getBasicSalary()+10000.0;
         }
         else{

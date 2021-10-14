@@ -16,10 +16,10 @@ class OfficeStaff extends Faculty{
        if(designation.equals("Accountant")){
             return getBasicSalary()+10000.0;
         }
-       else if(designation.equals("clerk")){
+       else if(designation.equals("Clerk")){
            return getBasicSalary()+7000.0;
        }
-       else if(designation.equals("peon")){
+       else if(designation.equals("Peon")){
            return getBasicSalary()+4500.0;
        }
        else{
